@@ -49,6 +49,7 @@ Use the `Authunticate` method with the proper credentials to get the database me
 // Example for fetching data
 List<LinkedHashMap<String, Object>> data = fetchByQuery(token, query);
 
+```
  ### Transaction Handling
     // Example of starting a transaction
     String transactionToken = startTransaction();
