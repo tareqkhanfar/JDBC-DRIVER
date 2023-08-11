@@ -57,6 +57,37 @@ List<LinkedHashMap<String, Object>> data = fetchByQuery(token, query);
     commit(transactionToken);
     // Rollback
     rollback(transactionToken);
+
+    ## Client and Server JAR Files
+
+This project includes pre-compiled JAR files for both the client and server components. They can be found in the `jar` directory of the repository.
+
+### Server JAR
+
+To run the server, execute the following command:
+
+```bash
+java -jar server.jar
+```
+### Client JAR
+To run the client, execute the following command:
+
+```
+java -jar client.jar
+
+```
+### Configuration
+You may need to configure certain parameters for both the client and server. Examples of these configurations include database connections, server ports, etc. The configuration files can be found in the config directory and can be modified as per your requirements.
+
+### Dependencies
+Make sure you have the required dependencies installed in your system, including:
+
+Java version 8 or higher
+Any other dependencies required by the project
+
+## Author
+[Tareq khanfar , Email : tareqkhanfar29@gmail.com ]
+
 ### Testing
 Ensure to write appropriate tests to verify the functionality of the service.
 
