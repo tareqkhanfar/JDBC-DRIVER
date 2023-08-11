@@ -58,7 +58,8 @@ List<LinkedHashMap<String, Object>> data = fetchByQuery(token, query);
     // Rollback
     rollback(transactionToken);
 
-    ## Client and Server JAR Files
+
+ ## Client and Server JAR Files
 
 This project includes pre-compiled JAR files for both the client and server components. They can be found in the `jar` directory of the repository.
 
